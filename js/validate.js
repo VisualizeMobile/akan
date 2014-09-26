@@ -88,12 +88,12 @@ jQuery(document).ready(function($) {
                 type: "POST",
                 url: "https://mandrillapp.com/api/1.0/messages/send.json",
                 data: {
-                    'key': 'Mt0tQQjbVGoIOxeIDItIkw',
+                    'key': '-IgAdyBwNKKKQfBAA8wkdw',
                     'message': {
                       'from_email': $('#form-email').val(),
                       'to': [
                           {
-                            'email': 'equipevisualizemobile@gmail.com',
+                            'email': 'visualizemobile@gmail.com',
                             'type': 'to'
                           }
                         ],
